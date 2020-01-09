@@ -38,7 +38,7 @@ En el artículo, se identifican las proteínas inducidas por temperaturas bajas 
 
 El resultado de nuestro estudio será un grafo o red donde habrá una serie de nodos o vértices (que corresponden a las entidades de la red) unidos entre sí mediante aristas. Estas redes vienen definidas por parámetros locales y globales. En cuanto a los parámetros locales, el número de vecinos (el número de nodos conectados al nodo de estudio) se define también como el **grado de los nodos**. A partir de él se pueden calcular los valores de **transitividad**, centralidad, intermediación o excentricidad. De todos ellos, quizás el de mayor relevancia es el concepto de transitividad. Este (también llamado coeficiente de agrupamiento), representa el grado de agrupamiento en torno a un nodo y varía entre 0 (cuando todos los vecinos no son vecinos entre sí) y 1 (cuando todos los vecinos del nodo de interés son vecinos entre sí). Viene definido por el grado de los nodos (d) de un nodo v y por las aristas entre los vecinos de v (N):
 
-<font size="1">.</font><CENTER>$t_v=\frac{N_v}{\frac{d_v(d_v-1)}{2}}$</CENTER>
+<CENTER>$t_v=\frac{N_v}{\frac{d_v(d_v-1)}{2}}$</CENTER>
 
 Por otro lado, uno de los parámetros globales más importantes es la **distribución del grado de los nodos**. Esta se define como la probabilidad de encontrar un nodo de grado k de forma aleatoria en la red. Esta propiedad de la red es importante en tanto que la distribución del grado de los nodos en las *redes libres de escala* (que son la mayoría de redes biológicas caracterizadas experimentalmente) siguen una distribución potencial negativa. Esto es:
 
